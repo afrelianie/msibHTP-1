@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Biodata Diri</title>
+
+</head>
+<style type="text/css">
+     /* css internal adalah yang ada didalam html */
+     /* ini contoh selector tag */
+     
+     fieldset, legend{
+     border: yellow groove 3px;
+     border-radius: 30px;
+     }
+     legend{
+     padding: 10px;
+     font-weight: bold;
+     font-size: 14pt;
+     }
+</style>
+
+
+<body bgcolor="">
+
+     <!-- list -->
+     <fieldset>
+          <legend>
+               <font color="blod" size="5" face="calibri">
+                    Tentang Saya
+               </font>
+          </legend>
+
+          <h2>Deskripsi Diri</h2>
+          <p align="justify" style="color: black; text-align: center; font-family: 'Courier New', Courier, monospace;" >
+               Hi, Nama Saya Anggita Afrelia Seorang Calon web developer yang berdomisisli di Kalimantan Barat Kabupaten Ketapang. Saat ini saya sedang belajar HTML di PT Hendevane Indonesia
+          </p>
+     
+          <ol type="A">
+               <li>Pendidikan
+                    <ul type="square">
+                         <li>Berkuliah di Politeknik Negeri Ketapang</li>
+                         <li>Menempuh Pendidikan D3</li>
+                         <li>Kemampuan</li>
+                         <ol type="1">
+                              <li>HTML dasar</li>
+                              <li>CSS dasar</li>
+                              <li>QGIS</li>
+                              <li>Laravel dasar</li>
+                         </ol>
+                    </ul>
+               </li>
+               <li>Hobby
+                    <ul type="circle">
+                         <li>Olahraga Panahan</li>
+                         <li>Rebahan dan Overtingking</li>
+                         <li>Membaca dan mencoba hal baru</li>
+                    </ul>
+               </li>
+               <li>Makanan Kesukaan
+                    <ul type="disc">
+                         <li>Nasgor</li>
+                         <li>Sate</li>
+                         <li>Ayam Lamongan</li>
+                    </ul>
+               </li>
+          </ol>
+     </fieldset>
+
+
+</body>
+</html>
